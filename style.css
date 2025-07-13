@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f9f7fc;
+}
+
+h1 {
+  color: #7b1fa2;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.semester {
+  background: #e1bee7;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+}
+
+.semester h2 {
+  margin-top: 0;
+}
+
+.course {
+  background: #f3e5f5;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
